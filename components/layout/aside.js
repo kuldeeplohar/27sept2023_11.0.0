@@ -7,16 +7,16 @@ export default function aside() {
          
             <ul class="nav flex-column">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/city">City</a>
+                    <link class="nav-link active" aria-current="page" href="/city">City</link>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/island">Island</a>
+                    <link class="nav-link" href="/island">Island</link>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="food">Food</a>
+                    <link class="nav-link" href="food">Food</link>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link " href="flight" tabindex="-1" aria-disabled="true">flight</a>
+                    <link class="nav-link " href="flight" tabindex="-1" aria-disabled="true">flight</link>
                   </li>
             </ul>
    </aside>
