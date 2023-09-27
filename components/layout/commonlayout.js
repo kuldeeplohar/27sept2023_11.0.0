@@ -1,10 +1,12 @@
+//1 .import area
 import React from 'react'
 import Header from './header'
 import Footer from './footer'
 import Aside from './aside'
 import Aside2 from './aside2'
 
-export default function commonlayout({children}) {
+//2. defination area
+function commonlayout({children}) {
   return (
     <>
          <div className="container p-0 k_tbdr">
@@ -21,3 +23,6 @@ export default function commonlayout({children}) {
     </>
   )
 }
+//3 export area
+
+export default commonlayout;
