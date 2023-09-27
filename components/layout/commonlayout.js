@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from '../components/layout/header'
-import Footer from '../components/layout/footer'
-import Aside from '../components/layout/aside'
-import Aside2 from '../components/layout/aside2'
+import Header from './header'
+import Footer from './footer'
+import Aside from './aside'
+import Aside2 from './aside2'
 
 export default function commonlayout({children}) {
   return (
